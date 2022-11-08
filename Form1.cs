@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//calculator
 
-namespace HelloWorld
+namespace CalcuLator
 {
     public partial class Form1 : Form
     {
@@ -63,7 +64,7 @@ namespace HelloWorld
 
         private void Btn5_Click(object sender, EventArgs e)
         {
-            LblCalc.Text = "5";
+            LblCalc.Text = "5" ;
         }
 
         private void Btn6_Click(object sender, EventArgs e)

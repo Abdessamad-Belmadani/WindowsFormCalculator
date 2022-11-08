@@ -1,4 +1,4 @@
-﻿namespace HelloWorld
+﻿namespace CalcuLator
 {
     partial class Form1
     {
@@ -47,6 +47,7 @@
             this.BtnDiv = new System.Windows.Forms.Button();
             this.BtnC = new System.Windows.Forms.Button();
             this.BtnAns = new System.Windows.Forms.Button();
+            this.LblView = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Btn3
@@ -236,11 +237,20 @@
             this.BtnAns.UseVisualStyleBackColor = true;
             this.BtnAns.Click += new System.EventHandler(this.BtnAns_Click);
             // 
+            // LblView
+            // 
+            this.LblView.AutoSize = true;
+            this.LblView.Location = new System.Drawing.Point(339, 30);
+            this.LblView.Name = "LblView";
+            this.LblView.Size = new System.Drawing.Size(0, 20);
+            this.LblView.TabIndex = 27;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(599, 316);
+            this.ClientSize = new System.Drawing.Size(533, 350);
+            this.Controls.Add(this.LblView);
             this.Controls.Add(this.BtnAns);
             this.Controls.Add(this.BtnC);
             this.Controls.Add(this.BtnDiv);
@@ -289,6 +299,7 @@
         private System.Windows.Forms.Button BtnDiv;
         private System.Windows.Forms.Button BtnC;
         private System.Windows.Forms.Button BtnAns;
+        private System.Windows.Forms.Label LblView;
     }
 }
 
